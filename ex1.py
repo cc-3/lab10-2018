@@ -4,7 +4,7 @@ import random
 def binary_search(l, element):
     '''
     TODO: implementar esta funcion que busca un elemento dentro de una lista
-    de python utilizando el algoritmo de busqueda binaria (CC2)
+    ordenada de python utilizando el algoritmo de busqueda binaria (CC2)
 
     la funcion recibe como parametros una lista (l) y un elemento a buscar
 
