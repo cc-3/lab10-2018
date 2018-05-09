@@ -24,7 +24,7 @@ def test():
     lst = [random.randint(0, 2 ** 16) for i in range(length)]
     lst.sort()
     indexes = [random.randint(0, length - 1) for i in range(3)]
-    print('Input List:', lst)
+    print('Input List: %s' % (lst))
     fmt = '\n\nelement: %d, output: %s, expected: %d\n'
     # valid elements test
     for i in indexes:
