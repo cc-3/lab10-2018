@@ -1,0 +1,5 @@
+hola mundo esto es una prueba
+para el laboratorio 10
+talvez esto no tenga sentido
+pero es solamente una prueba
+adios.
