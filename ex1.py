@@ -41,9 +41,12 @@ def test():
 
 
 def main():
-    for i in range(3):
-        print('=> Test %d\n' % (i + 1))
-        test()
+    try:
+        for i in range(3):
+            print('=> Test %d\n' % (i + 1))
+            test()
+    except Exception as e:
+        print('Su codigo es invalido')
 
 
 if __name__ == '__main__':
